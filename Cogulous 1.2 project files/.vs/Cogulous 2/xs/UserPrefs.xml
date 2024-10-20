@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{F078CC14-FD21-3F37-22F6-EA5E423F3222}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7675d4fc-9787-4c2c-a55c-beb859091af1" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Map Script/Vending machine script.cs">
+    <Files>
+      <File FileName="Assets/Player Scripts/Melee_Controller.cs" />
+      <File FileName="Assets/Map Script/Camera Folloe.cs" />
+      <File FileName="Assets/Player Scripts/Score_Script.cs" />
+      <File FileName="Assets/Player Scripts/Set_Score.cs" />
+      <File FileName="Assets/Enemy Scripts/Bill Oldgun.cs" />
+      <File FileName="Assets/Username.cs" />
+      <File FileName="Assets/Map Script/Vending machine script.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Cogulous 2" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Enemy Scripts" expanded="True" />
+              <Node name="Main menu" expanded="True" />
+              <Node name="Map Script" expanded="True">
+                <Node name="Vending machine script.cs" selected="True" />
+              </Node>
+              <Node name="Player Scripts" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{BE4DF087-1156-9232-8CF3-39A3102F42C2}|">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Player Scripts/Melee_Controller.cs">
+    <Files>
+      <File FileName="Assets/Enemy Scripts/Bill Shotgun.cs" Line="1" Column="1" />
+      <File FileName="Assets/Map Script/Camera Folloe.cs" Line="1" Column="1" />
+      <File FileName="Assets/Player Scripts/Health_Manager.cs" Line="9" Column="25" />
+      <File FileName="Assets/Map Script/123 tut stone1.cs" />
+      <File FileName="Assets/Main menu/I_UI.cs" />
+      <File FileName="Assets/Main menu/Main_Menu.cs" />
+      <File FileName="Assets/Map Script/Vending machine script.cs" Line="11" Column="46" />
+      <File FileName="Assets/Player Scripts/Melee_Controller.cs" Line="32" Column="59" />
+      <File FileName="Assets/Player Scripts/Player.cs" Line="24" Column="1" />
+      <File FileName="Assets/Prefabs/Heart_Logic.cs" />
+      <File FileName="Assets/Prefabs/Bullet_Time_Out.cs" />
+      <File FileName="Assets/Enemy Scripts/Bill Oldgun.cs" Line="125" Column="17" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Cogulous" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Enemy Scripts" expanded="True" />
+              <Node name="Main menu" expanded="True" />
+              <Node name="Map Script" expanded="True" />
+              <Node name="Player Scripts" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="aacb39d8-f7bb-433d-b83e-ebd8b752e341" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
