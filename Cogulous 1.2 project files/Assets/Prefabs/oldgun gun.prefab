@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3443364386124939607}
   - component: {fileID: 2483498475865966632}
   - component: {fileID: 7507475344546037766}
-  - component: {fileID: 6215292731304147733}
+  - component: {fileID: -3983127482969914296}
   m_Layer: 0
   m_Name: oldgun gun
   m_TagString: Untagged
@@ -149,7 +149,7 @@ CircleCollider2D:
   m_Offset: {x: 0.035516225, y: 0.000051733638}
   serializedVersion: 2
   m_Radius: 0.3999886
---- !u!114 &6215292731304147733
+--- !u!114 &-3983127482969914296
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,7 +158,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8983415032882957697}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21b8116e199cd4811bb801431d038648, type: 3}
+  m_Script: {fileID: 11500000, guid: 592b2f3c97bc542a7bd84490a8e22c52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Bullet_Layer:

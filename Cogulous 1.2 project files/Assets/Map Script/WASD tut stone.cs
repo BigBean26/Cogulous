@@ -6,7 +6,6 @@ public class WASDtutstone : MonoBehaviour
 {
     bool W_Button_Pressed = false;
     bool A_Button_Pressed = false;
-    bool S_Button_Pressed = false;
     bool D_Button_Pressed = false;
 
     // Start is called before the first frame update
@@ -24,9 +23,7 @@ public class WASDtutstone : MonoBehaviour
             A_Button_Pressed = true;
         if (Input.GetKeyDown("w"))
             W_Button_Pressed = true;
-        if (Input.GetKeyDown("s"))
-            S_Button_Pressed = true;
-        if( W_Button_Pressed && S_Button_Pressed && A_Button_Pressed && D_Button_Pressed)
+        if( W_Button_Pressed && A_Button_Pressed && D_Button_Pressed)
             Destroy(gameObject);
 
     }

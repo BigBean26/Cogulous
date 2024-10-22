@@ -5,35 +5,18 @@ using static UnityEngine.UIElements.UxmlAttributeDescription;
 
 public class Write_Input : MonoBehaviour
 {
-    public string input;
-    public string user;
-    public string output;
-    public string key = "1";
-    // Start is called before the first frame update
-    void Start()
-    {
+    private string input;
 
+    
+    public void ReadStringInput(string s)
+    {
+        input = s;
+        Debug.Log(input);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Savedata()
     {
-        
-    }
-    public void readstringinput(string user)
-    {
-        input = user;
-        Debug.Log(user);
-        
-
-    }
-    public void Savedate(string key, string user)
-    {
-        PlayerPrefs.SetString(key, user);
-    }
-    public void Loaddate(string key)
-    {
-        output = PlayerPrefs.GetString(key);
-        Debug.Log(output);
+        PlayerPrefs.SetString("2", input);
     }
 }
+

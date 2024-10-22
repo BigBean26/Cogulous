@@ -20,6 +20,7 @@ public class BillOldgun : MonoBehaviour
     public bool Reloaded = true;
     public bool Can_Move = true;
     public bool Is_Dead = false;
+    int Is_Dead_pp = 0;
 
 
     public void Turning_To_Player()
@@ -178,7 +179,10 @@ public class BillOldgun : MonoBehaviour
         }
         if (Is_Dead == true)
         {
-            SceneManager.LoadScene(3);
+            Is_Dead_pp = 1;
+            PlayerPrefs.SetInt("4",Is_Dead_pp );
+            SceneManager.LoadScene(4);
+
         }
 
 

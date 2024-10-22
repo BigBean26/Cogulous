@@ -1,30 +1,30 @@
 ﻿<Properties StartupConfiguration="{F078CC14-FD21-3F37-22F6-EA5E423F3222}|">
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7675d4fc-9787-4c2c-a55c-beb859091af1" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Map Script/Vending machine script.cs">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Enemy Scripts/Bill Oldgun.cs">
     <Files>
       <File FileName="Assets/Player Scripts/Melee_Controller.cs" />
       <File FileName="Assets/Map Script/Camera Folloe.cs" />
+      <File FileName="Assets/Enemy Scripts/Bill Shotgun.cs" />
+      <File FileName="Assets/Map Script/Vending machine script.cs" />
+      <File FileName="Assets/Main menu/I_UI.cs" />
       <File FileName="Assets/Player Scripts/Score_Script.cs" />
       <File FileName="Assets/Player Scripts/Set_Score.cs" />
-      <File FileName="Assets/Enemy Scripts/Bill Oldgun.cs" />
-      <File FileName="Assets/Username.cs" />
-      <File FileName="Assets/Map Script/Vending machine script.cs" Line="1" Column="1" />
+      <File FileName="Assets/Main menu/Main_Menu.cs" />
+      <File FileName="Assets/Main menu/Write_Input.cs" Line="14" Column="26" />
+      <File FileName="Assets/Leaderboard.cs" />
+      <File FileName="Assets/Enemy Scripts/Bill Oldgun.cs" Line="134" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Cogulous 2" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Enemy Scripts" expanded="True" />
-              <Node name="Main menu" expanded="True" />
-              <Node name="Map Script" expanded="True">
-                <Node name="Vending machine script.cs" selected="True" />
+              <Node name="Enemy Scripts" expanded="True">
+                <Node name="Bill Oldgun.cs" selected="True" />
               </Node>
+              <Node name="Main menu" expanded="True" />
+              <Node name="Map Script" expanded="True" />
               <Node name="Player Scripts" expanded="True" />
             </Node>
           </Node>
@@ -32,5 +32,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dd9397d6-cf22-4ebb-9c1a-3bc2bc4b4bd0" />
 </Properties>

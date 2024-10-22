@@ -102,9 +102,6 @@ MonoBehaviour:
   Melee_Weapon: {fileID: 2678439156025896081, guid: 41cf969c783924d4c90e64f77c820829, type: 3}
   Heart: {fileID: 8463053130498199239, guid: 27c547ee240dc4257bd718d95f0a2987, type: 3}
   Stock: 3
-  Offset: {x: 0, y: 0, z: 0}
-  spriterenderer: {fileID: 3988104952190014757}
-  broken: {fileID: 21300000, guid: 02d391e6db37347f49842d0d3ee64150, type: 3}
 --- !u!61 &3327938005228316454
 BoxCollider2D:
   m_ObjectHideFlags: 0

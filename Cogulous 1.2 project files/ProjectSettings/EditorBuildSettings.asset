@@ -8,9 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main_Menu.unity
     guid: 01302260b74044c2aa5918fba8a4a9b1
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Main_Game.unity
     guid: 16dfca7fe392a45a98a7438c97095668
@@ -20,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Death screen.unity
     guid: 35c4db57af9534b3995602082e76a016
+  - enabled: 1
+    path: Assets/Scenes/Win_Screen.unity
+    guid: e3eeba3e1791d450e9a8d427e8433ba7
   m_configObjects: {}

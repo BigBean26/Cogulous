@@ -18,12 +18,14 @@ public class Melee_Controller : MonoBehaviour
             Sprite_Renderer.sprite = Spanner;
             Melee_Style = 1;
             Invincibility_Frames = 1;
+            Debug.Log("1");
         }
         if (Input.GetKey("2"))
         {
             Sprite_Renderer.sprite = Pipe;
             Melee_Style = 2;
             Invincibility_Frames = 2;
+            Debug.Log("2");
         }
         if (Input.GetKey("3"))
         {
@@ -31,6 +33,7 @@ public class Melee_Controller : MonoBehaviour
 
             Melee_Style = 3;
             Invincibility_Frames = 3;
+            Debug.Log("3");
         }
     }
     public void Is_Weapon_Live()
@@ -38,6 +41,7 @@ public class Melee_Controller : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             Weapon_Live = true;
+            Debug.Log("click");
         }
         else
         {

@@ -20,11 +20,15 @@ public class CameraFolloe : MonoBehaviour
     public LayerMask Heart_Layer; //Used detect hearts from vending machines
     public bool Menu_Active = false; //Used to check if the menu is open or not so when 'esc' is clicked it open/close
     public CapsuleCollider2D Melee_Weapon; //Collider for Players Melee weapons
-    public bool Can_Dash = true; // Represents if the player can dash or not, it is used in an if statement relating to dashing
-    public bool Is_Dashing = false; // an animation variable to note wether or not the player is dashing
+    bool key_Down_W = false;
+    bool key_down_space = false;
 
-    
-    
+
+    public void Start()
+    {
+        Health = 5; // resets health
+    }
+
 
     // jumping method is here
     public void Jumping()
@@ -40,9 +44,24 @@ public class CameraFolloe : MonoBehaviour
             Debug.DrawRay(Ray_Cast_Down_Left, Ray_Cast_Direction * Distance_To_Bottom_Of_Character, Color.green);
         }
 
-
+        if (Input.GetKeyDown("w"))
+        {
+            key_Down_W = true;
+        }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            key_down_space = true;
+        }
         if (Input.GetKeyDown("w") || Input.GetKeyDown(KeyCode.Space)) // If 'W' or 'space' is pressed the code for jumping will be called
         {
+            if (key_Down_W == true)
+            {
+                Debug.Log("w");
+            }
+            if (key_down_space == true)
+            {
+                Debug.Log("space");
+            }
             if (Hit_Left.collider != null || Hit_Right.collider != null) //Checks if Raycasts are touching the ground or if they are not
                 RB2D.AddForce(Vector2.up * 20, ForceMode2D.Impulse);
         }
@@ -65,7 +84,6 @@ public class CameraFolloe : MonoBehaviour
         {
             if (Health > 0 && Is_Invincible == false)
                 Health -= 1;
-            Debug.Log(Health);
             Immunity_Frames();
         }
         if (Player_Collider.IsTouchingLayers(Heart_Layer)) //If a player touches a healing item
@@ -74,22 +92,7 @@ public class CameraFolloe : MonoBehaviour
         }
 
     }
-    public void Advanced_Movement()
-    {
-        if (Input.GetKeyDown("q") && Can_Dash == true) //Dashing
-        {
-            StartCoroutine(Dash());
-        }
-    }
-    public IEnumerator Dash()
-    {
-        Is_Dashing = true;
-        RB2D.velocity = new Vector2(40 * Rotation_Factor, 0);
-        Can_Dash = false;
-        yield return new WaitForSeconds(2);
-        Can_Dash = true;
-        Is_Dashing = false;
-    }
+
 
     // Update is called once per frame
     void Update()
@@ -97,26 +100,34 @@ public class CameraFolloe : MonoBehaviour
         {
             if (Health == 0)
             {
-                Health = 5; // resets health
+                
                 SceneManager.LoadScene(3); //Opens death screen scene
                
             }
         }
         Jumping(); //Calls the jumping code evey frame
         Health_Logic();
-        Advanced_Movement();
         if (Input.GetKey("d")) //For strafing right
         {
+            Debug.Log("d");
             RB2D.AddForce(Vector2.right * 20, ForceMode2D.Force);
             Rotation_Factor = 1;
         }
         if (Input.GetKey("a")) // for strafing left
         {
+            Debug.Log("a");
             RB2D.AddForce(Vector2.left * 20, ForceMode2D.Force);
             Rotation_Factor = -1;
         }
+
+        if (Input.GetKeyDown("q")) //Dashing
+        {
+            Debug.Log("q");
+            RB2D.velocity = new Vector2(40 * Rotation_Factor, 0);
+        }
         if (Input.GetKeyDown(KeyCode.Escape)) //Opens or closes the ingame menu
         {
+            Debug.Log("esc");
             if (Menu_Active == false)
             {
                 gameObject.transform.GetChild(2).gameObject.SetActive(true);
@@ -128,11 +139,6 @@ public class CameraFolloe : MonoBehaviour
                 Menu_Active = false;
             }
 
-        }
-        if (Input.GetKeyDown("p"))
-        {
-            Health = 5;
-            SceneManager.LoadScene(3);
         }
     }
 }

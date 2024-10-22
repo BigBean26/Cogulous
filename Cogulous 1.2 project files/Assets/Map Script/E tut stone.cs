@@ -13,8 +13,14 @@ public class Etutstone : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("e"))
-            Destroy(gameObject);
+        
+            if (Input.GetKeyDown("e"))
+            {
+                Destroy(gameObject);
+            }
+                
+        
+            
 
     }
 }
