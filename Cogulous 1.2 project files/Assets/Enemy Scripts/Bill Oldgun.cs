@@ -26,7 +26,7 @@ public class BillOldgun : MonoBehaviour
     public void Turning_To_Player()
     {
         float Distance_To_Player = Vector2.Distance(Player.position, transform.position);
-        if (Distance_To_Player <= 10f)
+        if (Distance_To_Player <= 100f)
         {
             Player_Within_Range = true;
         }
@@ -65,11 +65,11 @@ public class BillOldgun : MonoBehaviour
         float Distance_To_Player = Vector2.Distance(Player.position, transform.position);
         if (Player_Within_Range == true)
         {
-            if (Distance_To_Player < 6)
+            if (Distance_To_Player < 30)
             {
                 rb2D.AddForce(Vector2.left * 5 * Rotation_Factor, ForceMode2D.Force);
             }
-            if (Distance_To_Player > 6)
+            if (Distance_To_Player > 30)
 
             {
                 rb2D.AddForce(Vector2.right * 5 * Rotation_Factor, ForceMode2D.Force);

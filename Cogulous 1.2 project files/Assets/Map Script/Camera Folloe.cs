@@ -23,7 +23,6 @@ public class CameraFolloe : MonoBehaviour
     bool key_Down_W = false;
     bool key_down_space = false;
 
-
     public void Start()
     {
         Health = 5; // resets health
@@ -102,7 +101,6 @@ public class CameraFolloe : MonoBehaviour
             {
                 
                 SceneManager.LoadScene(3); //Opens death screen scene
-               
             }
         }
         Jumping(); //Calls the jumping code evey frame

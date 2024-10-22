@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Melee_Controller : MonoBehaviour
 {
     public static int Melee_Style = 1;
@@ -11,6 +12,7 @@ public class Melee_Controller : MonoBehaviour
     public Sprite Pipe_Wrench;
     public Sprite Pipe;
     public Sprite Spanner;
+    public AudioSource Sound_Effects;
     public void Weapon_Selector()
     {
         if (Input.GetKey("1"))
@@ -41,6 +43,7 @@ public class Melee_Controller : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             Weapon_Live = true;
+            Sound_Effects.Play();
             Debug.Log("click");
         }
         else

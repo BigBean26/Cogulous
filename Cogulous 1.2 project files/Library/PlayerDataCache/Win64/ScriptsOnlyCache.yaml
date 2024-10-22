@@ -59,9 +59,6 @@ ScriptsOnlyBuild:
     Unity.TextMeshPro.dll:
     - TMPro.TMP_FontAsset
     - TMPro.TMP_InputField
-    - TMPro.TMP_Settings
-    - TMPro.TMP_SpriteAsset
-    - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -182,20 +179,24 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1584}
+      Script: {instanceID: 1580}
     - Class: 114
-      Script: {instanceID: 1638}
+      Script: {instanceID: 1634}
     - Class: 114
-      Script: {instanceID: 2916}
+      Script: {instanceID: 2914}
     - Class: 114
-      Script: {instanceID: 2968}
+      Script: {instanceID: 2966}
     - Class: 114
-      Script: {instanceID: 3184}
+      Script: {instanceID: 3182}
     - Class: 114
-      Script: {instanceID: 3534}
+      Script: {instanceID: 3532}
     - Class: 114
       Script: {instanceID: 6390}
     - Class: 114
@@ -207,7 +208,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8892}
     - Class: 114
-      Script: {instanceID: 27178}
+      Script: {instanceID: 27666}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -254,19 +255,19 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1584}
+      Script: {instanceID: 1580}
     - Class: 114
-      Script: {instanceID: 1638}
+      Script: {instanceID: 1634}
     - Class: 114
-      Script: {instanceID: 1824}
+      Script: {instanceID: 1820}
     - Class: 114
-      Script: {instanceID: 2042}
+      Script: {instanceID: 2038}
     - Class: 114
-      Script: {instanceID: 2808}
+      Script: {instanceID: 2806}
     - Class: 114
-      Script: {instanceID: 3184}
+      Script: {instanceID: 3182}
     - Class: 114
-      Script: {instanceID: 3534}
+      Script: {instanceID: 3532}
     - Class: 114
       Script: {instanceID: 5410}
     - Class: 114
@@ -331,25 +332,25 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1584}
+      Script: {instanceID: 1580}
     - Class: 114
-      Script: {instanceID: 1638}
+      Script: {instanceID: 1634}
     - Class: 114
-      Script: {instanceID: 1824}
+      Script: {instanceID: 1820}
     - Class: 114
-      Script: {instanceID: 2042}
+      Script: {instanceID: 2038}
     - Class: 114
-      Script: {instanceID: 2808}
+      Script: {instanceID: 2806}
     - Class: 114
-      Script: {instanceID: 2916}
+      Script: {instanceID: 2914}
     - Class: 114
-      Script: {instanceID: 3152}
+      Script: {instanceID: 3150}
     - Class: 114
-      Script: {instanceID: 3184}
+      Script: {instanceID: 3182}
     - Class: 114
-      Script: {instanceID: 3534}
+      Script: {instanceID: 3532}
     - Class: 114
-      Script: {instanceID: 4154}
+      Script: {instanceID: 4152}
     - Class: 114
       Script: {instanceID: 5410}
     - Class: 114
@@ -420,25 +421,25 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1584}
+      Script: {instanceID: 1580}
     - Class: 114
-      Script: {instanceID: 1638}
+      Script: {instanceID: 1634}
     - Class: 114
-      Script: {instanceID: 1778}
+      Script: {instanceID: 1774}
     - Class: 114
-      Script: {instanceID: 2368}
+      Script: {instanceID: 2364}
     - Class: 114
-      Script: {instanceID: 2916}
+      Script: {instanceID: 2914}
     - Class: 114
-      Script: {instanceID: 2968}
+      Script: {instanceID: 2966}
     - Class: 114
-      Script: {instanceID: 3184}
+      Script: {instanceID: 3182}
     - Class: 114
-      Script: {instanceID: 3534}
+      Script: {instanceID: 3532}
     - Class: 114
-      Script: {instanceID: 4786}
+      Script: {instanceID: 4784}
     - Class: 114
-      Script: {instanceID: 4808}
+      Script: {instanceID: 4806}
     - Class: 114
       Script: {instanceID: 5124}
     - Class: 114
@@ -495,15 +496,15 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1584}
+      Script: {instanceID: 1580}
     - Class: 114
-      Script: {instanceID: 1638}
+      Script: {instanceID: 1634}
     - Class: 114
-      Script: {instanceID: 2916}
+      Script: {instanceID: 2914}
     - Class: 114
-      Script: {instanceID: 3184}
+      Script: {instanceID: 3182}
     - Class: 114
-      Script: {instanceID: 3534}
+      Script: {instanceID: 3532}
     - Class: 114
       Script: {instanceID: 6390}
     - Class: 114
@@ -583,7 +584,7 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
-      Hash: d9c3493b99035fe099db2134a555d0b7
+      Hash: 505fd29c0560163c1dbb289f447daaf6
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Melee_Controller
