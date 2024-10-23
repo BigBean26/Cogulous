@@ -85,7 +85,7 @@ public class CameraFolloe : MonoBehaviour
                 Health -= 1;
             Immunity_Frames();
         }
-        if (Player_Collider.IsTouchingLayers(Heart_Layer)) //If a player touches a healing item
+        if (Player_Collider.IsTouchingLayers(Heart_Layer) && Health < 5) //If a player touches a healing item
         {
             Health += 1;//Adds 1 to their health
         }
