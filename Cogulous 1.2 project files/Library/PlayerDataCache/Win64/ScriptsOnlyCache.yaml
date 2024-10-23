@@ -28,7 +28,6 @@ ScriptsOnlyBuild:
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
-    - UnityEngine.U2D.Animation.BufferManager
     - UnityEngine.U2D.Animation.SpriteSkinComposite
     - UnityEngine.U2D.Animation.SpriteSkinUpdateHelper
     Unity.2D.IK.Editor.dll:
@@ -208,7 +207,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8892}
     - Class: 114
-      Script: {instanceID: 27666}
+      Script: {instanceID: 27624}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
