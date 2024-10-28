@@ -20,8 +20,8 @@ public class CameraFolloe : MonoBehaviour
     public LayerMask Heart_Layer; //Used detect hearts from vending machines
     public bool Menu_Active = false; //Used to check if the menu is open or not so when 'esc' is clicked it open/close
     public CapsuleCollider2D Melee_Weapon; //Collider for Players Melee weapons
-    bool key_Down_W = false;
-    bool key_down_space = false;
+    bool Key_Down_W = false;
+    bool Key_Down_Space = false;
 
     public void Start()
     {
@@ -45,19 +45,19 @@ public class CameraFolloe : MonoBehaviour
 
         if (Input.GetKeyDown("w"))
         {
-            key_Down_W = true;
+            Key_Down_W = true;
         }
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            key_down_space = true;
+            Key_Down_Space = true;
         }
         if (Input.GetKeyDown("w") || Input.GetKeyDown(KeyCode.Space)) // If 'W' or 'space' is pressed the code for jumping will be called
         {
-            if (key_Down_W == true)
+            if (Key_Down_W == true)
             {
                 Debug.Log("w");
             }
-            if (key_down_space == true)
+            if (Key_Down_Space == true)
             {
                 Debug.Log("space");
             }
