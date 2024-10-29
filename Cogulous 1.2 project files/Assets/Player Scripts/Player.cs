@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
     public float Starting_Position;
     public int Rotation_Counter = 0;
     public static float Horizontal_Velocity;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,5 +31,7 @@ public class Player : MonoBehaviour
         }
         Horizontal_Velocity = (transform.position.x - Starting_Position) / Time.deltaTime;
         Starting_Position = transform.position.x;
+        int Health_Tracker = CameraFolloe.Health;
+        Debug.Log(Health_Tracker);
     }
 }

@@ -70,7 +70,7 @@ public class CameraFolloe : MonoBehaviour
     private IEnumerator Invincibility() 
     {
         Is_Invincible = true;
-        yield return new WaitForSeconds(Melee_Controller.Invincibility_Frames);
+        yield return new WaitForSeconds(0.3f);
         Is_Invincible = false;
     }
     public void Immunity_Frames()
