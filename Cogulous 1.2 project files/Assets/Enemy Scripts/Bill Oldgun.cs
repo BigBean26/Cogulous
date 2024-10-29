@@ -12,7 +12,7 @@ public class BillOldgun : MonoBehaviour
     public Collider2D Melee_Weapon;
     public bool Player_Within_Range;
     public int Rotation_Factor = 1;
-    public int Enemy_Health = 100;
+    public int Enemy_Health = 300;
     private bool Is_Invincible = false;
     public GameObject Bullet; // Bill's shotgun bullet object
     public float Muzzle_Velocity = 700f;

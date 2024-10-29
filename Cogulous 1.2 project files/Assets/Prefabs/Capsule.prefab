@@ -130,6 +130,9 @@ MonoBehaviour:
   Bullet_Layer:
     serializedVersion: 2
     m_Bits: 64
+  Collision_Mask:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!58 &7507475344546037766
 CircleCollider2D:
   m_ObjectHideFlags: 0

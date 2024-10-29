@@ -28,6 +28,7 @@ ScriptsOnlyBuild:
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
+    - UnityEngine.U2D.Animation.BufferManager
     - UnityEngine.U2D.Animation.SpriteSkinComposite
     - UnityEngine.U2D.Animation.SpriteSkinUpdateHelper
     Unity.2D.IK.Editor.dll:
@@ -207,7 +208,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8892}
     - Class: 114
-      Script: {instanceID: 26960}
+      Script: {instanceID: 28862}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -583,7 +584,7 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
-      Hash: 505fd29c0560163c1dbb289f447daaf6
+      Hash: 9c4ee711b93fb59e805af59c7de3bb44
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Melee_Controller
@@ -607,7 +608,7 @@ ScriptsOnlyBuild:
     className: UnityOnMouseExitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 25b74ea69ddef5f24aa27e44696abef5
+      Hash: 20bbc97c1c7294e093a50ff76c06a326
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Bullet_Time_Out

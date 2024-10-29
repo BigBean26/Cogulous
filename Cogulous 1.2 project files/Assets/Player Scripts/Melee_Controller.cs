@@ -13,6 +13,7 @@ public class Melee_Controller : MonoBehaviour
     public Sprite Pipe;
     public Sprite Spanner;
     public AudioSource Sound_Effects;
+    public bool Cooled_Down = true;
     public void Weapon_Selector()
     {
         if (Input.GetKey("1"))
@@ -40,16 +41,24 @@ public class Melee_Controller : MonoBehaviour
     }
     public void Is_Weapon_Live()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && Cooled_Down)
         {
             Weapon_Live = true;
             Sound_Effects.Play();
             Debug.Log("click");
+
         }
         else
         {
             Weapon_Live = false;
         }
+    }
+
+    private IEnumerator Weapon_Cooldown()
+    {
+        Cooled_Down = false;
+        yield return new WaitForSeconds(Invincibility_Frames);
+        Cooled_Down = true;
     }
     // Start is called before the first frame update
     void Start()

@@ -37,7 +37,7 @@ public class CameraFolloe : MonoBehaviour
         Vector2 Ray_Cast_Direction = Vector2.down;
         RaycastHit2D Hit_Left = Physics2D.Raycast(Ray_Cast_Down_Left, Ray_Cast_Direction, Distance_To_Bottom_Of_Character, Collision_Mask);
         RaycastHit2D Hit_Right = Physics2D.Raycast(Ray_Cast_Down_Right, Ray_Cast_Direction, Distance_To_Bottom_Of_Character, Collision_Mask);
-        if (Debug_Mode) //Makes the rayscast visible to developers 
+        if (Debug_Mode) // Makes the rayscast visible to developers 
         {
             Debug.DrawRay(Ray_Cast_Down_Right, Ray_Cast_Direction * Distance_To_Bottom_Of_Character, Color.red); 
             Debug.DrawRay(Ray_Cast_Down_Left, Ray_Cast_Direction * Distance_To_Bottom_Of_Character, Color.green);
@@ -87,7 +87,7 @@ public class CameraFolloe : MonoBehaviour
         }
         if (Player_Collider.IsTouchingLayers(Heart_Layer) && Health < 5) //If a player touches a healing item
         {
-            Health += 1;//Adds 1 to their health
+            Health += 1; //Adds 1 to their health
         }
 
     }
@@ -99,7 +99,6 @@ public class CameraFolloe : MonoBehaviour
         {
             if (Health == 0)
             {
-                
                 SceneManager.LoadScene(3); //Opens death screen scene
             }
         }
@@ -111,7 +110,7 @@ public class CameraFolloe : MonoBehaviour
             RB2D.AddForce(Vector2.right * 20, ForceMode2D.Force);
             Rotation_Factor = 1;
         }
-        if (Input.GetKey("a")) // for strafing left
+        if (Input.GetKey("a")) // For strafing left
         {
             Debug.Log("a");
             RB2D.AddForce(Vector2.left * 20, ForceMode2D.Force);

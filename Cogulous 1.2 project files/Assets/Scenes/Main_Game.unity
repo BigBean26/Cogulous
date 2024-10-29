@@ -2770,6 +2770,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8748700}
     - target: {fileID: 6065280824003908846, guid: db9628581bdc94db9bdea822c9ef844c, type: 3}
+      propertyPath: Enemy_Health
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 6065280824003908846, guid: db9628581bdc94db9bdea822c9ef844c, type: 3}
       propertyPath: Melee_Weapon
       value: 
       objectReference: {fileID: 48017450}
@@ -3714,12 +3718,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5825052965078412991, guid: ccd4cc1449cf446249442a279231bb41, type: 3}
       propertyPath: Can_Move
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5825052965078412991, guid: ccd4cc1449cf446249442a279231bb41, type: 3}
       propertyPath: Melee_Weapon
       value: 
       objectReference: {fileID: 48017450}
+    - target: {fileID: 5825052965078412991, guid: ccd4cc1449cf446249442a279231bb41, type: 3}
+      propertyPath: Bullet_Layer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
