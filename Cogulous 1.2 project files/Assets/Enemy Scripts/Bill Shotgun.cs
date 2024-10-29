@@ -90,7 +90,7 @@ public class BillShotgun : MonoBehaviour
                     Enemy_Health -= 10;
                     break;
                 case 2:
-                    Enemy_Health -= 20;
+                    Enemy_Health -= 30;
                     break;
                 case 3:
                     Enemy_Health -= 100;

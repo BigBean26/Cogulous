@@ -13,7 +13,7 @@ public class Score_Script : MonoBehaviour
 
     public void Health_Score_Calculation()
     {
-        if (Health_Current < Health_Before)
+        if (Health_Current < Health_Before && Score >= 10)
         {
             Score -= 10;
         }
@@ -36,7 +36,7 @@ public class Score_Script : MonoBehaviour
                     Score += 1;
                     break;
                 case 2:
-                    Score += 2;
+                    Score += 3;
                     break;
                 case 3:
                     Score += 10;

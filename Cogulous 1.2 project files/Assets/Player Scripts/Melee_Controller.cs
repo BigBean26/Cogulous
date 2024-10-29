@@ -27,7 +27,7 @@ public class Melee_Controller : MonoBehaviour
         {
             Sprite_Renderer.sprite = Pipe;
             Melee_Style = 2;
-            Invincibility_Frames = 2;
+            Invincibility_Frames = 3;
             Debug.Log("2");
         }
         if (Input.GetKey("3"))
@@ -35,7 +35,7 @@ public class Melee_Controller : MonoBehaviour
             Sprite_Renderer.sprite = Pipe_Wrench;
 
             Melee_Style = 3;
-            Invincibility_Frames = 3;
+            Invincibility_Frames = 30;
             Debug.Log("3");
         }
     }
@@ -57,7 +57,7 @@ public class Melee_Controller : MonoBehaviour
     private IEnumerator Weapon_Cooldown()
     {
         Cooled_Down = false;
-        yield return new WaitForSeconds(Invincibility_Frames);
+        yield return new WaitForSeconds(Invincibility_Frames/10);
         Cooled_Down = true;
     }
     // Start is called before the first frame update
