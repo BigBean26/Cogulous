@@ -68,7 +68,6 @@
     <Compile Include="Assets\Player Scripts\Score_Script.cs" />
     <Compile Include="Assets\Map Script\Leaderboard.cs" />
     <Compile Include="Assets\Enemy Scripts\Bill Oldgun.cs" />
-    <Compile Include="Assets\Prefabs\Oldgun.cs" />
     <Compile Include="Assets\Enemy Scripts\Bill Shotgun.cs" />
     <Compile Include="Assets\Prefabs\Bullet_Time_Out.cs" />
     <Compile Include="Assets\Player Scripts\Health_Manager.cs" />

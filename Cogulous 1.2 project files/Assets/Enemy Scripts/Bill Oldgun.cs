@@ -128,7 +128,7 @@ public class BillOldgun : MonoBehaviour
     } 
     public void Bullet_Fire()
     {
-        int Bullet_Angle = Random.Range(-10,30);
+        int Bullet_Angle = Random.Range(-30,15);
         float Total_Velocity_Bullet = 1004.987562f;
         float Bullet_Velocity_Vertical_Component = Total_Velocity_Bullet * Mathf.Sin(Mathf.Deg2Rad*Bullet_Angle);
         float Bullet_Velocity_Horizontal_Component = Total_Velocity_Bullet * Mathf.Cos(Mathf.Deg2Rad * Bullet_Angle);

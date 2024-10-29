@@ -246,7 +246,7 @@ MonoBehaviour:
   Player_Within_Range: 0
   Rotation_Factor: 1
   Enemy_Health: 500
-  Bullet: {fileID: 8983415032882957697, guid: 6bf7a8ca3b11440759822520d2b7a666, type: 3}
+  Bullet: {fileID: 8983415032882957697, guid: c340d6a19b53c4336a2257fcb45e16ac, type: 3}
   Muzzle_Velocity: 700
   Bullet_Layer:
     serializedVersion: 2
