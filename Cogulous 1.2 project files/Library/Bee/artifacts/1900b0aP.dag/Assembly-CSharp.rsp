@@ -342,7 +342,6 @@
 "Assets/Player Scripts/Set_Score.cs"
 "Assets/Prefabs/Bullet_Time_Out.cs"
 "Assets/Prefabs/Heart_Logic.cs"
-"Assets/Prefabs/Oldgun.cs"
 "Assets/Text_transfer.cs"
 "Assets/Username.cs"
 -langversion:9.0

@@ -16,7 +16,6 @@ ScriptsOnlyBuild:
     - Leftclicktutstonescript
     - Main_Menu
     - Melee_Controller
-    - Oldgun
     - Player
     - Qtutstone
     - Score_Script
@@ -208,7 +207,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8892}
     - Class: 114
-      Script: {instanceID: 28862}
+      Script: {instanceID: 28226}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -353,8 +352,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4152}
     - Class: 114
       Script: {instanceID: 5410}
-    - Class: 114
-      Script: {instanceID: 5470}
     - Class: 114
       Script: {instanceID: 5498}
     - Class: 114
@@ -1068,12 +1065,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: CameraFolloe
-  - hash:
-      serializedVersion: 2
-      Hash: 73884a0040e30a313e774199b3c6524f
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Oldgun
   - hash:
       serializedVersion: 2
       Hash: 71e14e577d5ccf47cf01c06e8596687d
