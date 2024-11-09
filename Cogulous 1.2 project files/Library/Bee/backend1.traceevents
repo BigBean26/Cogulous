@@ -1,515 +1,64 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1730236314594265, "dur":101, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1730236314594493, "dur":4282, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1730236314598789, "dur":1053, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1730236314599967, "dur":55, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1730236314600022, "dur":962, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1730236314601024, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":0, "ts":1730236314601136, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":0, "ts":1730236314601232, "dur":86, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/level0" }}
-,{ "pid":12345, "tid":0, "ts":1730236314601819, "dur":76, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":0, "ts":1730236314602013, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/boot.config" }}
-,{ "pid":12345, "tid":0, "ts":1730236314602113, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":0, "ts":1730236314602386, "dur":86, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1730236314602581, "dur":79, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1730236314602832, "dur":119, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1730236314603154, "dur":122, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1730236314603441, "dur":140, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1730236314603754, "dur":133, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1730236314604061, "dur":183, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/Unity.2D.IK.Runtime.dll" }}
-,{ "pid":12345, "tid":0, "ts":1730236314604254, "dur":89, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":0, "ts":1730236314604422, "dur":142, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
-,{ "pid":12345, "tid":0, "ts":1730236314604695, "dur":253, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":0, "ts":1730236314604959, "dur":117, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
-,{ "pid":12345, "tid":0, "ts":1730236314605082, "dur":111, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":0, "ts":1730236314605198, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/Unity.Burst.Unsafe.dll" }}
-,{ "pid":12345, "tid":0, "ts":1730236314605320, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":0, "ts":1730236314605464, "dur":115, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":0, "ts":1730236314605632, "dur":146, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":0, "ts":1730236314605980, "dur":74, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":0, "ts":1730236314606059, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":0, "ts":1730236314606196, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":0, "ts":1730236314606270, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":0, "ts":1730236314606531, "dur":129, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
-,{ "pid":12345, "tid":0, "ts":1730236314606808, "dur":124, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":0, "ts":1730236314607085, "dur":121, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":0, "ts":1730236314601013, "dur":6267, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1730236314607282, "dur":6205144, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1730236320812428, "dur":150, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1730236320812621, "dur":83, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1730236320812727, "dur":136, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1730236320813012, "dur":58, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1730236320813265, "dur":3581, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1730236314600881, "dur":6436, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1730236314607327, "dur":8866, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1730236314616216, "dur":23048, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1730236314639265, "dur":57, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":1, "ts":1730236314639327, "dur":4226, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1730236314644806, "dur":85885, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":1, "ts":1730236314731082, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1730236314639325, "dur":92415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1730236314733881, "dur":350, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1730236314734675, "dur":219047, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1730236314958615, "dur":139664, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1730236314958614, "dur":139668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1730236315098311, "dur":6935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1730236315105273, "dur":5706982, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1730236314601149, "dur":6383, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1730236314607539, "dur":1294, "ph":"X", "name": "File",  "args": { "detail":"C:\\Users\\isenc\\OneDrive\\Documents\\GitHub\\Cogulous\\Cogulous 1.2 project files\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":2, "ts":1730236314607539, "dur":3284, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1730236314610824, "dur":5698, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1730236314616524, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":2, "ts":1730236314616762, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1730236314616909, "dur":702, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1730236314688622, "dur":7686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":2, "ts":1730236314696412, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1730236314696629, "dur":12718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1730236314709465, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1730236314709696, "dur":12389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1730236314722227, "dur":27916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":2, "ts":1730236314750199, "dur":6062339, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1730236314600966, "dur":6365, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1730236314608632, "dur":1612, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Api.Attributes.dll" }}
-,{ "pid":12345, "tid":3, "ts":1730236314607334, "dur":3969, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1730236314611304, "dur":4983, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1730236314616316, "dur":1730, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":3, "ts":1730236314616290, "dur":1758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":3, "ts":1730236314618049, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1730236314620270, "dur":20479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":3, "ts":1730236314642789, "dur":224, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1730236314654798, "dur":30626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":3, "ts":1730236314685543, "dur":264, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1730236314685845, "dur":4755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1730236314690654, "dur":584, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1730236314691257, "dur":141, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1730236314704090, "dur":301, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1730236314691421, "dur":12999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1730236314705073, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1730236314705257, "dur":13656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1730236314719040, "dur":359, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
-,{ "pid":12345, "tid":3, "ts":1730236314719038, "dur":363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":3, "ts":1730236314719448, "dur":401, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1730236314719866, "dur":38987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":3, "ts":1730236314758920, "dur":6053575, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1730236314601039, "dur":6311, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1730236314607960, "dur":828, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.BuildTools.dll" }}
-,{ "pid":12345, "tid":4, "ts":1730236314608869, "dur":603, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.dll" }}
-,{ "pid":12345, "tid":4, "ts":1730236314607353, "dur":2312, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1730236314609665, "dur":7523, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1730236314617189, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1730236314617293, "dur":683, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1730236314640101, "dur":2976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1730236314643133, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1730236314643651, "dur":15937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":4, "ts":1730236314659629, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1730236314659760, "dur":3134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":4, "ts":1730236314663014, "dur":32861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/System.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1730236314695932, "dur":599, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1730236314696604, "dur":7980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1730236314704635, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1730236314704691, "dur":394, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1730236314705129, "dur":14145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1730236314719389, "dur":197, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1730236314719621, "dur":7456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/sharedassets4.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1730236314727143, "dur":15029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1730236314742221, "dur":6070054, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1730236314601102, "dur":6290, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1730236314607394, "dur":2323, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":5, "ts":1730236314607394, "dur":3346, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1730236314610741, "dur":5570, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1730236314616311, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":5, "ts":1730236314637792, "dur":28715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":5, "ts":1730236314669379, "dur":317, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1730236314669730, "dur":39020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":5, "ts":1730236314708802, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1730236314708994, "dur":17630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1730236314726936, "dur":5575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":5, "ts":1730236314732829, "dur":12352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/level2" }}
-,{ "pid":12345, "tid":5, "ts":1730236314745234, "dur":6067026, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1730236314601190, "dur":6389, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1730236314607583, "dur":1352, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1730236314609426, "dur":961, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1730236314607583, "dur":3680, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1730236314611263, "dur":5028, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1730236314616327, "dur":393, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":6, "ts":1730236314616293, "dur":429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":6, "ts":1730236314616724, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1730236314632746, "dur":4497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":6, "ts":1730236314637333, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":6, "ts":1730236314637330, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":6, "ts":1730236314644339, "dur":5951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":6, "ts":1730236314650622, "dur":3969, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1730236314655391, "dur":2327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":6, "ts":1730236314657753, "dur":392, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1730236314658162, "dur":4369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":6, "ts":1730236314662568, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1730236314662642, "dur":3624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":6, "ts":1730236314666382, "dur":3283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":6, "ts":1730236314669704, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1730236314669881, "dur":10375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/Unity.2D.Common.Runtime.dll" }}
-,{ "pid":12345, "tid":6, "ts":1730236314680373, "dur":218, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1730236314680599, "dur":7813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1730236314688468, "dur":475, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1730236314690456, "dur":7844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1730236314698363, "dur":219, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1730236314698609, "dur":16687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1730236314715419, "dur":456, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1730236314743925, "dur":227, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1730236314715911, "dur":28280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1730236314744290, "dur":6067805, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1730236314601263, "dur":6851, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1730236314609519, "dur":1315, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1730236314608116, "dur":2914, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1730236314611030, "dur":5168, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1730236314616211, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1730236314620867, "dur":9394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/app.info" }}
-,{ "pid":12345, "tid":7, "ts":1730236314630264, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1730236314630450, "dur":1085, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1730236314633299, "dur":57522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1730236314690923, "dur":306, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1730236314691252, "dur":5601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1730236314696928, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1730236314697042, "dur":10609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1730236314707750, "dur":291, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1730236314708065, "dur":5436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1730236314713554, "dur":218, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1730236314713797, "dur":8682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1730236314722552, "dur":17442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1730236314740275, "dur":7903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":7, "ts":1730236314748244, "dur":6064070, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1730236314601306, "dur":6849, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1730236314608726, "dur":1619, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1730236314608157, "dur":2738, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1730236314610895, "dur":5364, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1730236314618001, "dur":136, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\isenc\\OneDrive\\Documents\\GitHub\\Cogulous\\Cogulous 1.2 project files\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":8, "ts":1730236314618138, "dur":126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\isenc\\OneDrive\\Documents\\GitHub\\Cogulous\\Cogulous 1.2 project files\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.IK.Runtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1730236314618265, "dur":748, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\isenc\\OneDrive\\Documents\\GitHub\\Cogulous\\Cogulous 1.2 project files\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
-,{ "pid":12345, "tid":8, "ts":1730236314619015, "dur":1550, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\isenc\\OneDrive\\Documents\\GitHub\\Cogulous\\Cogulous 1.2 project files\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":8, "ts":1730236314620567, "dur":2199, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\isenc\\OneDrive\\Documents\\GitHub\\Cogulous\\Cogulous 1.2 project files\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1730236314622769, "dur":1637, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\isenc\\OneDrive\\Documents\\GitHub\\Cogulous\\Cogulous 1.2 project files\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Tilemap.Extras.dll" }}
-,{ "pid":12345, "tid":8, "ts":1730236314624408, "dur":2566, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\isenc\\OneDrive\\Documents\\GitHub\\Cogulous\\Cogulous 1.2 project files\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":8, "ts":1730236314626976, "dur":213, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\isenc\\OneDrive\\Documents\\GitHub\\Cogulous\\Cogulous 1.2 project files\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.001.dll" }}
-,{ "pid":12345, "tid":8, "ts":1730236314627192, "dur":470, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\isenc\\OneDrive\\Documents\\GitHub\\Cogulous\\Cogulous 1.2 project files\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1730236314627664, "dur":619, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\isenc\\OneDrive\\Documents\\GitHub\\Cogulous\\Cogulous 1.2 project files\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":8, "ts":1730236314628285, "dur":434, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\isenc\\OneDrive\\Documents\\GitHub\\Cogulous\\Cogulous 1.2 project files\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":8, "ts":1730236314628721, "dur":566, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\isenc\\OneDrive\\Documents\\GitHub\\Cogulous\\Cogulous 1.2 project files\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
-,{ "pid":12345, "tid":8, "ts":1730236314629289, "dur":217, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\isenc\\OneDrive\\Documents\\GitHub\\Cogulous\\Cogulous 1.2 project files\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1730236314629508, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\isenc\\OneDrive\\Documents\\GitHub\\Cogulous\\Cogulous 1.2 project files\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.PixelPerfect.dll" }}
-,{ "pid":12345, "tid":8, "ts":1730236314629618, "dur":1093, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\isenc\\OneDrive\\Documents\\GitHub\\Cogulous\\Cogulous 1.2 project files\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":8, "ts":1730236314630713, "dur":454, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\isenc\\OneDrive\\Documents\\GitHub\\Cogulous\\Cogulous 1.2 project files\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":8, "ts":1730236314631170, "dur":1247, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\isenc\\OneDrive\\Documents\\GitHub\\Cogulous\\Cogulous 1.2 project files\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":8, "ts":1730236314632588, "dur":137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Mono.Security.dll" }}
-,{ "pid":12345, "tid":8, "ts":1730236314632728, "dur":414, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":8, "ts":1730236314633207, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"ProjectSettings\\BurstAotSettings_StandaloneWindows.json" }}
-,{ "pid":12345, "tid":8, "ts":1730236314633305, "dur":160, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\isenc\\OneDrive\\Documents\\GitHub\\Cogulous\\Cogulous 1.2 project files\\Library\\PackageCache\\com.unity.burst@1.8.12\\.Runtime\\bcl.exe" }}
-,{ "pid":12345, "tid":8, "ts":1730236314616260, "dur":17207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
-,{ "pid":12345, "tid":8, "ts":1730236314656609, "dur":6141883, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
-,{ "pid":12345, "tid":8, "ts":1730236320808595, "dur":142, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\AsyncPluginsFromLinker\\x86_64\\lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":8, "ts":1730236320808593, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":8, "ts":1730236320808743, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1730236320809693, "dur":2248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":9, "ts":1730236314601409, "dur":7651, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1730236314609063, "dur":1584, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1730236314610647, "dur":5960, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1730236314616621, "dur":128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":9, "ts":1730236314616607, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":9, "ts":1730236314672554, "dur":108, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1730236314662308, "dur":10366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":9, "ts":1730236314672743, "dur":201, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1730236314672972, "dur":9992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
-,{ "pid":12345, "tid":9, "ts":1730236314683032, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1730236314683196, "dur":4559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1730236314687813, "dur":1116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1730236314702168, "dur":58, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1730236314690448, "dur":11806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1730236314702324, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1730236314702421, "dur":6786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1730236314709258, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1730236314709500, "dur":5581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1730236314715140, "dur":801, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1730236314715975, "dur":5919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1730236314721988, "dur":15486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":9, "ts":1730236314737569, "dur":13132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":9, "ts":1730236314750771, "dur":6061354, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1730236314601508, "dur":7891, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1730236314609402, "dur":717, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1730236314610120, "dur":7017, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1730236314617138, "dur":1592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":10, "ts":1730236314618731, "dur":429, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1730236314639577, "dur":130, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1730236314632205, "dur":7529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":10, "ts":1730236314639829, "dur":185, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":10, "ts":1730236314639827, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":10, "ts":1730236314640016, "dur":4138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1730236314644431, "dur":11332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":10, "ts":1730236314655803, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1730236314655911, "dur":5687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":10, "ts":1730236314661662, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1730236314661803, "dur":3066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":10, "ts":1730236314667058, "dur":234, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1730236314664984, "dur":2324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":10, "ts":1730236314667370, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1730236314667518, "dur":3401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
-,{ "pid":12345, "tid":10, "ts":1730236314670953, "dur":476, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1730236314671447, "dur":7509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":10, "ts":1730236314679011, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1730236314682281, "dur":160, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1730236314679156, "dur":3301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/Unity.2D.IK.Runtime.dll" }}
-,{ "pid":12345, "tid":10, "ts":1730236314682532, "dur":511, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1730236314683065, "dur":3084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1730236314686276, "dur":7256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1730236314693597, "dur":262, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1730236314693886, "dur":4550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1730236314698497, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1730236314698610, "dur":7481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1730236314706176, "dur":306, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1730236314706526, "dur":9843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1730236314716446, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1730236314716739, "dur":6929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1730236314723748, "dur":26504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":10, "ts":1730236314750303, "dur":6062129, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1730236314601566, "dur":7868, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1730236314609434, "dur":7884, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1730236314617328, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
-,{ "pid":12345, "tid":11, "ts":1730236314617318, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":11, "ts":1730236314617439, "dur":737, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1730236314618186, "dur":69, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1730236314633838, "dur":86, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1730236314631886, "dur":2059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":11, "ts":1730236314634020, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":11, "ts":1730236314634150, "dur":5256, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1730236314689002, "dur":1556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":11, "ts":1730236314690614, "dur":493, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1730236314701937, "dur":314, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1730236314691186, "dur":11578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1730236314703577, "dur":541, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1730236314704132, "dur":197, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1730236314704335, "dur":11090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1730236314715625, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1730236314715738, "dur":73, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1730236314715821, "dur":6618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1730236314722624, "dur":11720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":11, "ts":1730236314734415, "dur":9782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/level1" }}
-,{ "pid":12345, "tid":11, "ts":1730236314744246, "dur":6068036, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1730236314601645, "dur":7803, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1730236314609448, "dur":7776, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1730236314617224, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":12, "ts":1730236314617326, "dur":732, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1730236314635917, "dur":4039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":12, "ts":1730236314640034, "dur":698, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
-,{ "pid":12345, "tid":12, "ts":1730236314640033, "dur":700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous.exe" }}
-,{ "pid":12345, "tid":12, "ts":1730236314640795, "dur":1801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous.exe" }}
-,{ "pid":12345, "tid":12, "ts":1730236314642714, "dur":159, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1730236314643597, "dur":11158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":12, "ts":1730236314654894, "dur":3136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":12, "ts":1730236314658081, "dur":249, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1730236314658344, "dur":2137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":12, "ts":1730236314660523, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1730236314660625, "dur":3392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":12, "ts":1730236314664071, "dur":190, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1730236314664285, "dur":15593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/Unity.Burst.Unsafe.dll" }}
-,{ "pid":12345, "tid":12, "ts":1730236314679925, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1730236314680091, "dur":10672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":12, "ts":1730236314690822, "dur":286, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1730236314706041, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1730236314691134, "dur":14995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1730236314706200, "dur":302, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1730236314706531, "dur":4863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1730236314711465, "dur":353, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1730236314711842, "dur":8939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1730236314720900, "dur":11343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":12, "ts":1730236314732316, "dur":12670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/level3" }}
-,{ "pid":12345, "tid":12, "ts":1730236314745032, "dur":6067097, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1730236314601666, "dur":8747, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1730236314610413, "dur":7048, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1730236314617483, "dur":252, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
-,{ "pid":12345, "tid":13, "ts":1730236314617462, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":13, "ts":1730236314617737, "dur":671, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1730236314633877, "dur":56890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":13, "ts":1730236314690821, "dur":794, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1730236314691653, "dur":9235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1730236314700947, "dur":1775, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1730236314702750, "dur":12847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1730236314715827, "dur":681, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1730236314716533, "dur":68, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1730236314716607, "dur":12668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1730236314729477, "dur":21573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/level4" }}
-,{ "pid":12345, "tid":13, "ts":1730236314751107, "dur":6061391, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1730236314601788, "dur":8666, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1730236314610455, "dur":6869, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1730236314617325, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":14, "ts":1730236314617530, "dur":1258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1730236314688870, "dur":7975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":14, "ts":1730236314696967, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1730236314697282, "dur":8612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1730236314705969, "dur":512, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1730236314706547, "dur":7138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1730236314713902, "dur":620, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1730236314714536, "dur":77, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1730236314726057, "dur":100, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1730236314714623, "dur":11557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1730236314726352, "dur":4267, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":14, "ts":1730236314726350, "dur":4271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":14, "ts":1730236314730622, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1730236314731038, "dur":18408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":14, "ts":1730236314749499, "dur":6063124, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1730236314601819, "dur":8649, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1730236314610469, "dur":6708, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1730236314617199, "dur":207, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":15, "ts":1730236314617178, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":15, "ts":1730236314617408, "dur":1183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1730236314644096, "dur":7690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":15, "ts":1730236314652010, "dur":2611, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1730236314655063, "dur":35406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":15, "ts":1730236314690631, "dur":918, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1730236314691575, "dur":8611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1730236314700374, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1730236314700635, "dur":6412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1730236314707118, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1730236314707192, "dur":5416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1730236314712662, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1730236314712874, "dur":11297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1730236314724282, "dur":23889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":15, "ts":1730236314748224, "dur":6064414, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1730236314602078, "dur":8431, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1730236314610510, "dur":6522, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1730236314617032, "dur":487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":16, "ts":1730236314617520, "dur":871, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1730236314662158, "dur":1965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":16, "ts":1730236314664164, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1730236314664288, "dur":3584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":16, "ts":1730236314667987, "dur":5764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/Unity.Collections.dll" }}
-,{ "pid":12345, "tid":16, "ts":1730236314673856, "dur":216, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1730236314674101, "dur":5615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
-,{ "pid":12345, "tid":16, "ts":1730236314679790, "dur":3078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":16, "ts":1730236314682964, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1730236314683166, "dur":112, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1730236314683283, "dur":3786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1730236314687148, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1730236314687278, "dur":561, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1730236314687865, "dur":5176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1730236314693093, "dur":330, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1730236314693487, "dur":5005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1730236314698563, "dur":157, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1730236314698562, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1730236314698723, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1730236314698801, "dur":6589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1730236314705509, "dur":5337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1730236314710899, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1730236314719399, "dur":142, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1730236314711000, "dur":8555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1730236314719656, "dur":6063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":16, "ts":1730236314725886, "dur":129, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":16, "ts":1730236314725885, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":16, "ts":1730236314726018, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1730236314726104, "dur":73, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1730236314726186, "dur":9131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":16, "ts":1730236314735379, "dur":11763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/level0" }}
-,{ "pid":12345, "tid":16, "ts":1730236314747201, "dur":6065008, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1730236314601941, "dur":8537, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1730236314610478, "dur":6564, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1730236314617051, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":17, "ts":1730236314617042, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":17, "ts":1730236314617164, "dur":670, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1730236314633135, "dur":8472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":17, "ts":1730236314641696, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":17, "ts":1730236314646506, "dur":97, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1730236314642144, "dur":4477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":17, "ts":1730236314646709, "dur":2322, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1730236314654804, "dur":4638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":17, "ts":1730236314659575, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1730236314659650, "dur":17368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":17, "ts":1730236314677093, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1730236314677214, "dur":7740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":17, "ts":1730236314685150, "dur":2388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1730236314687607, "dur":235, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1730236314687870, "dur":5329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1730236314693258, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1730236314693431, "dur":7898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1730236314701396, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1730236314701501, "dur":187, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1730236314701696, "dur":6840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1730236314708607, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1730236314708770, "dur":4109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1730236314712932, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1730236314719452, "dur":545, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1730236314713015, "dur":6997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1730236314728664, "dur":66, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1730236314720200, "dur":8549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":17, "ts":1730236314728844, "dur":12683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/resources.assets" }}
-,{ "pid":12345, "tid":17, "ts":1730236314741574, "dur":6070639, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1730236314602017, "dur":8498, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1730236314610515, "dur":6299, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1730236314616815, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":18, "ts":1730236314653555, "dur":77, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1730236314651285, "dur":2364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":18, "ts":1730236314653731, "dur":1258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1730236314655015, "dur":3813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":18, "ts":1730236314658942, "dur":3216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":18, "ts":1730236314662265, "dur":3858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":18, "ts":1730236314666242, "dur":1993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":18, "ts":1730236314668268, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1730236314668412, "dur":8340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":18, "ts":1730236314676832, "dur":319, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1730236314677176, "dur":10133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":18, "ts":1730236314687367, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1730236314687472, "dur":6189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1730236314693774, "dur":779, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1730236314701663, "dur":71, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1730236314694595, "dur":7166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1730236314701839, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1730236314701996, "dur":216, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1730236314704286, "dur":88, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1730236314702219, "dur":2170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1730236314704443, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1730236314704591, "dur":6247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1730236314710887, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1730236314710944, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1730236314711044, "dur":9023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1730236314720146, "dur":28690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":18, "ts":1730236314748891, "dur":6063199, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1730236314602174, "dur":8331, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1730236314610506, "dur":6333, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1730236314616865, "dur":253, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":19, "ts":1730236314616840, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":19, "ts":1730236314617120, "dur":804, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1730236314636141, "dur":14811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":19, "ts":1730236314654480, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1730236314655276, "dur":6410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":19, "ts":1730236314661734, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1730236314661861, "dur":2675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":19, "ts":1730236314664636, "dur":2195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
-,{ "pid":12345, "tid":19, "ts":1730236314666870, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1730236314666956, "dur":3785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/Unity.2D.PixelPerfect.dll" }}
-,{ "pid":12345, "tid":19, "ts":1730236314670779, "dur":626, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1730236314681353, "dur":108, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1730236314671434, "dur":10058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
-,{ "pid":12345, "tid":19, "ts":1730236314681572, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1730236314681685, "dur":86, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1730236314681778, "dur":14556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1730236314696413, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1730236314696596, "dur":6169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1730236314702884, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1730236314703061, "dur":6685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1730236314709876, "dur":7570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1730236314717498, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1730236314717719, "dur":6378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1730236314724180, "dur":13681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":19, "ts":1730236314737938, "dur":8908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":19, "ts":1730236314746895, "dur":6065450, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1730236314602299, "dur":8198, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1730236314610498, "dur":6427, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1730236314616926, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":20, "ts":1730236314617270, "dur":997, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1730236314636020, "dur":25423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":20, "ts":1730236314662349, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1730236314662497, "dur":35110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":20, "ts":1730236314697669, "dur":382, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1730236314698086, "dur":79, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1730236314698171, "dur":9267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1730236314707538, "dur":479, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1730236314708061, "dur":11841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1730236314720063, "dur":23445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/sharedassets3.resource" }}
-,{ "pid":12345, "tid":20, "ts":1730236314743821, "dur":6068822, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1730236320821338, "dur":2153, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1731125413020298, "dur":18264, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1731125413038573, "dur":524, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1731125413039148, "dur":392, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1731125413040213, "dur":104, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1731125413040423, "dur":126, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1731125413040675, "dur":107, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1731125413041479, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/isenc/OneDrive/Documents/GitHub/Cogulous/Cogulous 1.2 game/Cogulous_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":0, "ts":1731125413039555, "dur":2781, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1731125413042337, "dur":4190, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1731125413046528, "dur":171, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1731125413046699, "dur":100, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1731125413046966, "dur":1333, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1731125413040063, "dur":2468, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1731125413042543, "dur":680, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1731125413043223, "dur":3229, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1731125413040816, "dur":2082, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1731125413042899, "dur":3570, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1731125413040240, "dur":2313, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1731125413042556, "dur":641, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1731125413043197, "dur":3229, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1731125413040463, "dur":2313, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1731125413042786, "dur":712, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1731125413043498, "dur":2933, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1731125413040801, "dur":2105, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1731125413042906, "dur":3618, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1731125413039872, "dur":2474, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1731125413042350, "dur":4068, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1731125413040973, "dur":1939, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1731125413042913, "dur":3577, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1731125413039895, "dur":2458, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1731125413042356, "dur":866, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1731125413043223, "dur":3214, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1731125413040031, "dur":2330, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1731125413042365, "dur":580, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1731125413042945, "dur":3527, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1731125413040051, "dur":2318, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1731125413042373, "dur":495, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1731125413042869, "dur":3623, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1731125413040707, "dur":2171, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1731125413042879, "dur":3606, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1731125413040152, "dur":2394, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1731125413042549, "dur":570, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1731125413043120, "dur":3398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1731125413040361, "dur":2246, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1731125413042619, "dur":854, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1731125413043473, "dur":3041, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1731125413040382, "dur":2314, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1731125413042711, "dur":719, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1731125413043431, "dur":3090, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1731125413040581, "dur":2207, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1731125413042789, "dur":3718, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1731125413040699, "dur":2165, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1731125413042866, "dur":3631, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1731125413040807, "dur":2152, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1731125413042960, "dur":3484, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1731125413041035, "dur":1862, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1731125413042897, "dur":3559, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1731125413041053, "dur":1842, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1731125413042895, "dur":3581, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1731125413040881, "dur":2088, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1731125413042970, "dur":3518, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1731125413050356, "dur":281, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

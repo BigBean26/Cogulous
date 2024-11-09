@@ -51,7 +51,7 @@ public class CameraFolloe : MonoBehaviour
         {
             Key_Down_Space = true;
         }
-        if (Input.GetKeyDown("w") || Input.GetKeyDown(KeyCode.Space)) // If 'W' or 'space' is pressed the code for jumping will be called
+        if (Input.GetKeyDown("w") || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow)) // If 'W' or 'space' is pressed the code for jumping will be called
         {
             if (Key_Down_W == true)
             {
@@ -104,20 +104,20 @@ public class CameraFolloe : MonoBehaviour
         }
         Jumping(); //Calls the jumping code evey frame
         Health_Logic();
-        if (Input.GetKey("d")) //For strafing right
+        if (Input.GetKey("d") || Input.GetKey(KeyCode.RightArrow)) //For strafing right
         {
             Debug.Log("d");
             RB2D.AddForce(Vector2.right * 20, ForceMode2D.Force);
             Rotation_Factor = 1;
         }
-        if (Input.GetKey("a")) // For strafing left
+        if (Input.GetKey("a") || Input.GetKey(KeyCode.LeftArrow)) // For strafing left
         {
             Debug.Log("a");
             RB2D.AddForce(Vector2.left * 20, ForceMode2D.Force);
             Rotation_Factor = -1;
         }
 
-        if (Input.GetKeyDown("q")) //Dashing
+        if (Input.GetKeyDown("q") || Input.GetKeyDown(KeyCode.LeftShift)) //Dashing
         {
             Debug.Log("q");
             RB2D.velocity = new Vector2(40 * Rotation_Factor, 0);
